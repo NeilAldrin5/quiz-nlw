@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz NLW</title>
+    <link rel="stylesheet" href="./src/css/estilo.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="./src/imagens/Logo.svg" alt="Logo NLW">
+            <h1>Teste seus Conhecimentos</h1>
+        </header>
+        <div id="quiz"></div>
+        <template>
+            <div class="quiz-item">
+                <h3>Pergunta 01</h3>
+                <dl>
+                    <dt>
+                        <input type="radio" name="item" value="0">
+                        <span>Resposta A</span>
+                    </dt>
+                </dl>
+            </div>
+        </template>
+        <div id="acertos">
+            <strong>Acertos</strong>
+            <span>0 de 10</span>
+        </div>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
